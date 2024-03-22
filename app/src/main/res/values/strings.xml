@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyLoyaltyCards</string>
+    <string name="logo">Logo</string>
+    <string name="insert_company">Insert a company name</string>
+    <string name="insert_code">Insert your client code</string>
+    <string name="QR">Company use QR code</string>
+    <string name="colorBtn">Choose background color</string>
+    <string name="addBtn">Add card</string>
+    <string name="clientCodeImage">Generated client code</string>
+    <string name="deleteMessage">Want to delete a card?</string>
+    <string name="yes">Delete</string>
+    <string name="no">Cancel</string>
+    <string name="no_card">Add a card to start</string>
+</resources>

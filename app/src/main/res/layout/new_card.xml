@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="20dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="30dp">
+
+    <ImageButton
+        android:id="@+id/pickLogoImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/logo"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/companyNameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/insert_company"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:textAlignment="center" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/clientCodeTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/insert_code"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/QRCodeSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/QR"
+        android:textOff="provaOFF"
+        android:textOn="provaON"
+        app:showText="false" />
+
+    <Button
+        android:id="@+id/bckgroundColorBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/colorBtn" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_weight="1"
+        android:text="@string/addBtn" />
+</LinearLayout>
